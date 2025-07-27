@@ -12,7 +12,7 @@ registration:
 
 mcpServers:
   # Production-ready cloud service
-  8n8:
+  8n8 1:
     type: streamable-http
     url: https://n8n-mcp-production-80c5.up.railway.app/mcp
     headers:
