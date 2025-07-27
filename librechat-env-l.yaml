@@ -10,16 +10,7 @@ registration:
     - "google"
     - "openid"
 
-mcpServers:
-  # Production-ready cloud service
-  8n8 1:
-    type: streamable-http
-    url: https://n8n-mcp-production-80c5.up.railway.app/mcp
-    headers:
-      X-User-ID: "testUser"
-      Authorization: "Bearer auu2capyyp5j8g34ji1obl0lkymyn1t5"
-    timeout: 30000
-    serverInstructions: true
+
 
 endpoints:
   custom:
